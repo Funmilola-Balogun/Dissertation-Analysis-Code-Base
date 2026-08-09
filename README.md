@@ -16,8 +16,8 @@ The final analytical dataset comprises **99,491 observations** across **202 pred
 
 | File | Description |
 |---|---|
-| `temmy_2 (1).py` | Loads raw repository CSV exports, merges study-level and arm-level sources, engineers features (e.g. `baseline_z`, `treatment_duration`), constructs the binary and continuous outcome variables, applies the veteran-focused filter, and handles missing data. Also trains the logistic regression model (binary treatment success) and the linear regression model (continuous symptom change), runs diagnostic checks (calibration, VIF), and performs Decision Curve Analysis. Exports all summary tables and figures used in the results chapter. |
-| `temmy_2 (4).py` | An expanded, annotated version of the same end-to-end pipeline (data preparation through Decision Curve Analysis), retaining additional inline documentation and debugging steps from iterative development in Colab. |
+| `Dissertation_Ana.py` | Loads raw repository CSV exports, merges study-level and arm-level sources, engineers features (e.g. `baseline_z`, `treatment_duration`), constructs the binary and continuous outcome variables, applies the veteran-focused filter, and handles missing data. Also trains the logistic regression model (binary treatment success) and the linear regression model (continuous symptom change), runs diagnostic checks (calibration, VIF), and performs Decision Curve Analysis. Exports all summary tables and figures used in the results chapter. |
+| `Dissertation-Ana.jpynb` | An expanded, annotated version of the same end-to-end pipeline (data preparation through Decision Curve Analysis), retaining additional inline documentation and debugging steps from iterative development in Colab. |
 
 ## Data Source
 
